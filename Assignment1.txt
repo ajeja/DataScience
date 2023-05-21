@@ -1,0 +1,67 @@
+1. In the below elements which of them are values or an expression? eg:- values can be integer or string and expressions will be mathematical operators.
+* 
+'hello'
+-87.8
+- 
+/ 
++	
+6 
+Ans:
+*  is an Expression
+ 'hello' is a value
+ -87.8 is a value
+ - is an expression
+ / is an expression
+ + is an expression
+ 6 is a value
+
+2. What is the difference between string and variable?
+Ans:
+String is a datatype in Python. A string is a single or many characters enclosed in quotes.
+Variable is a name that represents a value in memory. A variable can hold the data of any data types.
+
+3. Describe three different data types.
+a.	String : It is a datatype in python, which holds Characters, numbers, and even special characters or the combination of the above three but they are 
+enclosed in single or double quotes. Ex: “String”, “10”
+b.	Boolean: It represents the truth values either True or False
+c.	Numerical: 
+(i)	Integer: It holds the numerical value. (Positive and Negative) Ex:10, 25
+(ii)	Float: It holds the numerical value along with decimal points. (Positive and Negative). Ex: 10.00, 25.00
+
+4. What is an expression made up of? What do all expressions do?
+Ans: The expression is a combination of a value, variable, and function when evaluated returns some result.
+Ex: x =5+3, The output of the expression is 8.
+ Y= len(“WORD”), The output of the expression is 4.
+   
+5. This assignment statements, like spam = 10. What is the difference between an expression and a statement?
+Ans: The Assignment statement is used to store a value to a variable. “=” is the assignment operator. The value on the right side of the equal sign is assigned 
+to a variable on the left side.
+6. After running the following code, what does the variable bacon contain?
+bacon = 22
+bacon + 1
+ Ans: The output of the bacon is 22. 
+
+7. What should the values of the following two terms be?
+'spam' + 'spamspam'
+'spam' * 3
+Ans:  The output of the above two  expression is ‘spamspamspam’
+
+8. Why is eggs a valid variable name while 100 is invalid?
+Ans: In Python the variable should start with an Alphabet or an underscore. Since eggs start with an Alphabet it is a variable whereas 100 start with a number 
+therefore it is not a variable.   
+
+9. What three functions can be used to get the integer, floating-point number, or string version of a value?
+Ans: int(), float() and str() are the three functions that can be used to get the integer, floating-point number, or string version of a value.
+Ex int(10.0) returns the output as 10.
+float(10) returns the output as 10.0
+str(99) returns the output as “99”
+
+10. Why does this expression cause an error? How can you fix it?
+'I have eaten ' + 99 + ' burritos.' 
+Ans: Concatenation can be done only for string data type. In this example 99 is an integer. It can be corrected by including 99 with in the quotes. 
+Ex 'I have eaten ' + ‘99’ + ' burritos.'
+
+
+
+
+
